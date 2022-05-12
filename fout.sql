@@ -31,5 +31,5 @@ TBLPROPERTIES ("xmlinput.start"="<book id","xmlinput.end"="</book>" );
 
  drop table if exists project.book;
 create table project.book as 
-select *, current_timestamp as dta_process 
+select *, current_timestamp() as dta_process 
 from project.book_ext_ext where 2=1;
