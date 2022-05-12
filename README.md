@@ -3,8 +3,6 @@ Python toolset to convert an XML input into an Hive table.
 
 ***_Please, use my code, but also reference my repository. This will be appreciated as an offered beer! :P_***
 
-# Current Instance
-
 
 # Create a new instance, your Instance
 ## All you need is...
