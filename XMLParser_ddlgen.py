@@ -16,7 +16,7 @@ create_ext = "project.book_ext"
 location = "'hdfs_project/tablename'"
 additional_sql ="drop table if exists project.book;\n" \
             "create table project.book as \n" \
-            "select *, current_timestamp as dta_process \n" \
+            "select *, current_timestamp() as dta_process \n" \
             "from project.book_ext_ext where 2=1;"
 
 
