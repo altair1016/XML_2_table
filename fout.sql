@@ -1,5 +1,5 @@
 set jar_hdfsfolder=serde_position/hivexmlserde-1.0.5.3.jar;
-set snow_hdfsfolder=hdfs://path/project_name/;
+set proj_hdfsfolder=hdfs://path/project_name/;
 --add jar  serde_position/hivexmlserde-1.0.5.3.jar;
 set db_name=project;
 set table_name_ext=book_ext;
